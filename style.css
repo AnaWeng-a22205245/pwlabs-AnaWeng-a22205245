@@ -1,0 +1,231 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+/*----------------------------------------------------------------------------*/
+h1 {
+    color: rgb(0, 52, 129);
+    font-size: 70px;
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+    padding: 40px 35px;
+}
+
+h1::first-letter {
+    /*primeira letra*/
+    color: rgb(36, 36, 63);
+    font-size: 100px
+}
+
+nav {
+    text-align: center;
+    padding: 15px 13px;
+}
+
+figure {
+    text-align: center;
+}
+
+table {
+    border-collapse: un;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(41, 41, 122);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+/*---------------------------------T-----------------------------------------*/
+[target="links"] {
+    color: darkslateblue;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#palavraCorRosa {
+    color: palevioletred;
+}
+
+#cloud {
+    width: 25%;
+}
+
+#nome {
+    color: darkslateblue;
+}
+
+#corHTML5 {
+    color: sienna;
+    font-size: 35px;
+}
+
+#corCSS {
+    color: royalblue;
+    font-size: 35px;
+}
+
+#corH {
+    color: brown;
+    font-weight: 400;
+}
+
+#quadradoInfo {
+    background-color: rgb(255, 249, 198)
+}
+
+#quadradoQuiz {
+    background-color: #F0FFFF
+}
+
+#quadradoComment {
+    background-color: #ffdfd4
+}
+
+#boldColor {
+    font-size: xx-large;
+    color: black;
+}
+
+#emojis1::after {
+    content: 😝;
+}
+
+#p::first-letter {
+    font-size: x-large;
+}
+
+#italico {
+    font-style: italic;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------*/
+
+body {
+    background-color: #F8F8FF;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.corBlack {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+.restoTitulo {
+    color: rgb(1, 1, 43);
+    font-size: 35px;
+    padding: 1%;
+    background-color: #bcd4f0;
+}
+
+.table1 {
+    border: sienna;
+
+}
+
+.table2 {
+    border: royalblue;
+}
+
+.fieldset {
+    background-color: #F8F8FF;
+}
+
+.poema {
+    border: #F8F8FF;
+    height: 300;
+    width: 600
+}
+
+.img {
+    margin: 0px;
+    height: 100%;
+}
+
+.final {
+    text-align: right;
+    padding: 2%;
+}
+
+.cordoH3 {
+    background-color: #bcd4f0;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+a:link {
+    color: darkslateblue
+}
+
+a:visited {
+    color: rgb(139, 113, 74)
+}
+
+a:hover {
+    color: firebrick
+}
+
+a:active {
+    color: darkslateblue
+}
+
+/*-----------------------------------------------------------------------------*/
+
+tr:nth-child(2n+1) {
+    background-color: rgb(255, 250, 246)
+}
+
+/*-----------------------------------------------------------------------------*/
+
+p.bloqueio {
+    display: block;
+}
+
+label.bloqueio {
+    display: block;
+}
+
+input.bloqueio {
+    display: block;
+}
+
+datalist.bloqueio {
+    display: block;
+}
+
+a.bloqueio {
+    display: block;
+}
+
+td.bloqueio {
+    display: block;
+}
+
+figure.bloqueio {
+    display: block;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+footer {
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(41, 41, 122);
+    text-align: center;
+    font-size: 25px;
+}
