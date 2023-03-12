@@ -1,0 +1,161 @@
+* {
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 12vh;
+  background: #3a244e;
+  position: sticky;
+  flex-flow: row wrap;
+  font-size: 16px;
+  top: 0;
+  justify-content: space-between;
+  font-family: 'Bungee Shade', cursive;
+  ;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header h1 {
+  display: flex;
+  color: ghostwhite;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  top: 50px;
+}
+
+a:link {
+  color: darkslateblue
+}
+
+a:visited {
+  color: rgb(121, 152, 255)
+}
+
+a:hover {
+  color: rgb(248, 228, 172)
+}
+
+a:active {
+  color: darkslateblue
+}
+
+/*-----------------------------------------------------------------------*/
+
+.grid-container {
+  display: grid;
+  height: 130vh;
+  gap: 5px;
+  padding: 10px;
+  background-color: #3a244e;
+
+
+  grid-template-areas:
+    "header header  header"
+    "menu   main    right"
+    "footer footer  footer";
+
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: 10% 1fr 70px;
+}
+
+.grid-container div {
+  background-color: white;
+  opacity: 0.9;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 50px;
+}
+
+
+.grid-container .item1 {
+  grid-area: header;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 50px;
+  font-family: 'Bungee Shade', cursive;
+  ;
+  font-weight: bold;
+}
+
+.grid-container .item2 {
+  grid-area: menu;
+  font-size: 30px;
+  font-family: 'Bungee Shade', cursive;
+  ;
+  font-weight: bold;
+  align-items: center;
+}
+
+
+.grid-container .item3 {
+  grid-area: main;
+  background-color: rgb(188, 194, 224);
+}
+
+.grid-container .item4 {
+  grid-area: right;
+  font-size: 30px;
+  font-family: 'Bungee Shade', cursive;
+  ;
+  font-weight: bold;
+  align-items: center;
+}
+
+.grid-container .item4 .voos {
+  grid-area: right;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  flex-flow: row wrap;
+  border: 1px solid #b3b3b4;
+  text-align: center;
+  padding: 25px;
+  margin: 5%;
+  height: 15vh;
+  background-color: rgb(253, 251, 223);
+}
+
+.grid-container .item4 .voos:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-color: blue;
+}
+
+.grid-container .item5 {
+  grid-area: footer;
+  padding: 25px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(158, 158, 158);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.grid-container .item2 a {
+  display: flex;
+  text-decoration: none;
+  flex-flow: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 35px;
+  margin: 45px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
