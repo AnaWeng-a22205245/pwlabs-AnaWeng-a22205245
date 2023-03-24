@@ -1,0 +1,236 @@
+<html>
+
+<head>
+    <title>
+        Xangai
+    </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ana Weng">
+    <meta name="description" content="Website sobre Xangai">
+    <meta name="keybords" content="shanghai,xangai, maior cidade, maior cidade da china, 上海">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+<body>
+    <header>
+        <h1 class="h1"> XANGAI </h1>
+
+        <figure id="borders">
+            <img src="images/images.jpg">
+            <figcaption>Xangai, China</figcaption>
+            <details>Uma vista de longe da cidade em que mostra do outro lado do rio Huangpu com a Torre de Xangai (632
+                m) e a Torre de TV Pérola Oriental, o centro da cidade Xangai. </details>
+        </figure>
+    </header>
+
+    <nav>
+        <p>
+            | &nbsp; <a href="index.html">Home</a> &nbsp; |
+            &nbsp; <a href="local.html">Localização</a>&nbsp; |
+            &nbsp; <a href="multimedia.html">Multimedia</a> &nbsp; |
+            &nbsp; <a href="info.html">Informação</a> &nbsp; |
+            &nbsp; <b><a href="quizz.html" target="links" id="nome">Quizz</a>📑</b> &nbsp; |
+            &nbsp; <a href="html5-css.html">HTML5 e CSS</a> &nbsp; |
+
+        </p>
+    </nav>
+
+    <main>
+        <div>
+            <section>
+                <h3 class="corblack">Quizz</h3>
+                <p>Heyy, conheces esta cidade magnífica?</p>
+
+            </section>
+        </div>
+
+        <div>
+            <form method="POST" action="mailto: anarita.weng2002.04@gmail.com" enctype="multipart/form-data">
+                <label><input type="radio" id="s" name="conhimento" value="yes">
+                    Sim, conheço 😝</label>
+                <label><input type="radio" name="conhimento" value="no">
+                    Não, conheço 😕</label>
+                <p></p>
+
+                <fieldset>
+
+                    <fieldset id="quadradoInfo">
+                        <legend id="boldColor">Personal Info</legend>
+
+                        <div>
+                            <label for="nome">nome</label>
+                            <input type="text" id="nome" name="info" placeholder="ex.:Ana"
+                                autocomplete="additional-name" autofocus required>*
+
+                            &nbsp;
+
+                            <label for="apelido">apelido</label>
+                            <input type="text" id="apelido" name="info" placeholder="ex.:Weng"
+                                autocomplete="family-name" required>*
+                        </div>
+
+                        <p></p>
+
+                        <div>
+                            <label for="numeroTel">Telef.</label>
+                            <input type="tel" id="numeroTel" name="info" placeholder="ex.:123-456-789" maxlength="9"
+                                pattern="[0-9]{1-9}" autocomplete="tel">
+                        </div>
+
+                        <p></p>
+
+                        <div>
+                            <label for="email">email</label>
+                            <input type="email" id="email" name="info" placeholder="ex.:anna2W@gmail.com"
+                                autocomplete="email" required>*
+                        </div>
+
+                        <p></p>
+
+                        <input type="reset" value="Reset" class="bloqueio">
+                    </fieldset>
+
+                    <p></p>
+
+                    <fieldset id="quadradoQuiz">
+                        <legend id="boldColor">Perguntas:</legend>
+
+                        <div>
+                            1️⃣<label for="nome do rio">Qual é o nome do rio que atravessa Xangai ? 🤔 *</label>
+                            <input type="text" class="bloqueio" id="nome do rio" name="perguntas" value=""
+                                pattern="[A-Za-z]{1-30}" autofocus autocomplete="additional-name" maxlength="30"
+                                required>
+                        </div>
+
+                        <p></p>
+
+                        2️⃣Qual dos seguintes distritos não faz parte de Xangai ? 🙃<br>
+                        <label class="bloqueio"><input type="radio" id="distritos" name="perguntas" value="Huangpu">
+                            Huangpu</label>
+                        <label class="bloqueio"><input type="radio" id="distritos" name="perguntas" value="Pudong">
+                            Pudong</label>
+                        <label class="bloqueio"><input type="radio" id="distritos" name="perguntas" value="Chaoyang">
+                            Chaoyang</label>
+                        <label class="bloqueio"><input type="radio" id="distritos" name="perguntas" value="Jing'an">
+                            Jing'an</label>
+
+                        <p></p>
+
+                        3️⃣Quais dos seguintes lugares podem ser encontrados em Xangai? 😊<br>
+                        <label class="bloqueio"><input type="checkbox" id="lugares" value="Jardim Yu">
+                            Jardim Yu</label>
+                        <label class="bloqueio"><input type="checkbox" id="lugares" value="Shanghai Tower">
+                            Shanghai Tower</label>
+                        <label class="bloqueio"><input type="checkbox" id="lugares" value="Muralha da China">
+                            Muralha da China</label>
+                        <label class="bloqueio"><input type="checkbox" id="lugares" value="Tiananmen Square">
+                            Tiananmen Square</label>
+
+                        <p></p>
+
+                        4️⃣Qual foi o ano em que o Torre de Xangai foi inaugurado ? 🤐
+                        &nbsp; <input type="date" id="ano" value="2 de fevereiro de 2015">
+
+                        <p></p>
+
+                        5️⃣<label for="imgflandmark"> Quais os nomes dos Torres que estão representado nas imagens a
+                            seguir:</label>
+                        &nbsp; <select id="imgflandmark" name="nome das imagens" placeholder="Escolhe uma das opções">
+                            <p></p>
+                            <datalist id="imgflandmark">
+                                <option value="Torre de rádio,TV & Torre de Xangai">Torre de rádio,TV & Torre de Xangai
+                                </option>
+                                <option value="Torre de Xangai & Torre KL">Torre de Xangai & Torre KL</option>
+                                <option value="Torre Pérola Oriental & Torre de Cantão">Torre Pérola Oriental & Torre de
+                                    Cantão</option>
+                                <option value="Torre Pérola Oriental & Torre de Xangai">Torre Pérola Oriental & Torre de
+                                    Xangai</option>
+                            </datalist>
+                        </select>
+
+                        <p></p>
+
+                        <figure>
+                            <input type="image" id="imgflandmark" src="images/vrqcju2yqm6msglfuxhl.jpg">
+                            <input type="image" id="imgflandmark" src="images/042528eab40a369441bd580c00c66b27.jpg">
+                        </figure>
+
+
+                        <p></p>
+
+                        6️⃣<label for="color">Qual é a cor do telhado tradicional chinês do Jardim Yu em Xangai
+                            ?🏯</label>
+                        &nbsp; <input type="color" id="color" name="cor">
+
+                        <p></p>
+
+                        7️⃣<label for="year">Em que ano foi realizado o primeiro Festival Internacional de Cinema de
+                            Xangai? 📽️ </label>
+                        &nbsp;
+                        <select id="year" name="year">
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                        </select>
+
+                        <p></p>
+
+                        8️⃣<label for="stars">Quantas estrelas ⭐ tem a bandeira da China ?</label>
+                        &nbsp; <input type="number" id="stars" name="stars" min=1 max=10 placeholder="1">
+
+                        <p></p>
+
+                        9️⃣Qual é a altura da Torre Pérola Oriental em Xangai?&nbsp;
+
+                        <form>
+                            <input type="range" min="0" max="1000" step="10" name="taxa" value="650"
+                                oninput="taxaN.value = parseInt(taxa.value)">
+                            <output name="taxaN" for="taxa">650</output> m
+                        </form>
+
+                        <p></p>
+
+                        <input type="reset" value="Reset" class="bloqueio">
+                    </fieldset>
+
+                    <p></p>
+
+                    <div>
+                        <fieldset id="quadradoComment">
+
+                            <legend id="boldColor">Commentário💭</span></legend>
+
+                            <textarea name="mensagem" rows="20" cols="40" style="width:800px; height:150px;"
+                                class="bloqueio" autofocus></textarea>
+
+                            <p></p>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+
+                        </fieldset>
+                    </div>
+
+                    <p></p>
+
+                    <div><input type="image" class="bloqueio" id="submetido"
+                            src="images/1-2-submit-now-picture-thumb.png" alt="Submit" width="150" height="35"></div>
+            </form>
+        </div>
+    </main>
+
+    <!--最下面部分------------------------------------------------------------->
+    <footer>
+        Ana Weng, a22205245, Universidade Lusófona de Humanidades e Tecnologias, 2ºano
+    </footer>
+
+</body>
+
+</head>
+
+</html>
