@@ -1,0 +1,150 @@
+<html id="grid4">
+
+
+<head>
+    <title>Travel</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ana Weng">
+    <link rel="stylesheet" href="gridStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto&family=Silkscreen&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+    <style>
+        .grid-container {
+            grid-template-areas:
+                "header header  header"
+                "main   right    menu"
+                "footer footer  footer";
+
+            grid-template-columns: 3fr 2fr 1fr;
+            grid-template-rows: 10% 1fr 70px;
+        }
+
+        @media screen and (max-width:1000px) {
+
+            header {
+                padding: 20px;
+            }
+
+            header h1 {
+                display: flex;
+                color: ghostwhite;
+                font-size: 20px;
+            }
+
+            header nav {
+                float: right;
+                text-align: right;
+                font-size: 20px;
+            }
+
+            .grid-container .item1 {
+                font-size: 35px;
+
+            }
+
+            .grid-container {
+                display: grid;
+                height: auto;
+                background-color: #3a244e;
+
+                grid-template-areas:
+                    'header'
+                    "menu"
+                    "main "
+                    "right"
+                    "footer";
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+
+        }
+    </style>
+
+<body>
+    <header>
+        <h1>三 Menu</h1>
+
+        <h1>
+            <nav>
+                <a href="index.html#home">Home</a> &nbsp; |
+                &nbsp; <a href="index.html#capitais">Capitais</a> &nbsp; |
+                &nbsp; <a href="grid.html#grids">Grids📰</a> &nbsp; &nbsp;
+            </nav>
+        </h1>
+    </header>
+
+    <div class="grid-container">
+
+        <div class="item1">Grid - modelo 4</div>
+
+        <div class="item2">Web Layouts
+            <nav class="menu">
+                <a href="grid.html#grids">Grid 1</a>
+                <a href="grid2.html#grid2">Grid 2</a>
+                <a href="grid3.html#grid3">Grid 3</a>
+                <a href="grid4.html#grid4">Grid 4</a>
+                <a href="grid5.html#grid5">Grid 5</a>
+                <a href="index.html#home">Grid Flex</a>
+            </nav>
+        </div>
+
+        <div class="item3">
+            <img src="https://source.unsplash.com/eb8dmXNOGP4/850x955">
+        </div>
+        <div class="item4">
+            <div class="item4"> Voos Possíveis
+
+                <div class="voos">
+
+                    <p>🥧Portugal🛫----🛬França🥐</p>
+
+                </div>
+
+
+
+                <div class="voos">
+
+                    <p>🥯Portugal🛫----🛬Switzerland🫕</p>
+
+                </div>
+
+
+
+                <div class="voos">
+
+                    <p>🍞Portugal🛫----🛬China🍜</p>
+
+                </div>
+
+
+
+                <div class="voos">
+
+                    <p>🥪Portugal🛫----🛬Japão🍣</p>
+
+                </div>
+
+
+
+                <div class="voos">
+
+                    <p>🥪Portugal🛫----🛬Inglaterra🍔</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item5">Ana Weng, a22205245, Universidade Lusófona de Humanidades e Tecnologias, 2ºano</div>
+    </div>
+
+</body>
+
+</head>
+
+</html>

@@ -1,0 +1,298 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.inicio {
+
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(237, 231, 253);
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Bungee Shade', cursive;
+    ;
+    color: #3a244e;
+}
+
+.imagem {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(196, 165, 28);
+
+}
+
+.parteCima {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+
+.palavraNaImagem {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    ;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Bungee Shade', cursive;
+    ;
+
+}
+
+.capitais {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    background-color: rgb(246, 240, 253);
+    padding: 84px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.capitais>div {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(196, 165, 28);
+    margin: 20px;
+}
+
+.capitais img {
+    border-radius: 15px 0 0 15px;
+    height: 100%;
+}
+
+.capitais div div:last-child {
+    width: 200px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 0 15px 15px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aument:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+header {
+    display: flex;
+    height: 12vh;
+    background: #3a244e;
+    position: sticky;
+    flex-flow: row wrap;
+    font-size: 16px;
+    top: 0;
+    justify-content: space-between;
+    font-family: 'Bungee Shade', cursive;
+    ;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    display: flex;
+    color: ghostwhite;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    top: 50px;
+}
+
+a:link {
+    color: rgb(255, 255, 255)
+}
+
+a:visited {
+    color: ghostwhite
+}
+
+a:hover {
+    color: rgb(248, 228, 172)
+}
+
+a:active {
+    color: darkslateblue
+}
+
+/*-----------*/
+
+.propriedade {
+    display: flex;
+    background-color: #3a244e;
+
+    justify-content: center;
+    /*por o conteuno no centro*/
+    height: 25vh;
+
+}
+
+.propriedade .circulo1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 20px;
+    background-color: rgb(139, 173, 184);
+}
+
+.propriedade .circulo2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 20px;
+    background-color: rgb(122, 177, 158);
+}
+
+/*.propriedade .circulo3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(190, 163, 128);
+    justify-content: center;
+    color: #fff;
+    margin: 20px;
+
+}*/
+
+.propriedade .quadrado {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(172, 115, 167);
+    justify-content: center;
+    color: #fff;
+    margin: 20px;
+}
+
+.circulo1:hover {
+    visibility: hidden;
+}
+
+.circulo2:hover {
+    visibility: hidden;
+}
+
+.circulo3:hover {
+    visibility: hidden;
+}
+
+.quadrado:hover {
+    visibility: hidden;
+}
+
+.clipImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    margin-top: 90px;
+    /*把照片放下面一点*/
+}
+
+.clipImg img {
+    z-index: 0;
+    clip-path: polygon(0 10px, 100% 0, 100% 90%, 1% 100%);
+
+}
+
+.clipImg:hover {
+    visibility: hidden;
+}
+
+footer {
+    padding: 5px;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+    background-color: #4b3263;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:1000px) {
+
+    header {
+        padding: 50px;
+    }
+
+    .inicio {
+        font-size: 55px;
+        white-space: nowrap;
+    }
+
+    header h1 {
+        display: flex;
+        color: ghostwhite;
+        font-size: 20px;
+    }
+
+    header nav {
+        float: right;
+        text-align: right;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+
+    header {
+        padding: 25px;
+    }
+
+    header h1 {
+        display: flex;
+        color: ghostwhite;
+        font-size: 15px;
+    }
+
+    .inicio {
+        font-size: 35px;
+        white-space: nowrap;
+    }
+
+
+    header nav {
+        float: right;
+        text-align: right;
+        font-size: 15px;
+        white-space: nowrap;
+    }
+}
