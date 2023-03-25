@@ -515,7 +515,242 @@ p.intro {
 
 /*----------------------------------------------------------------------------------*/
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1500px) {
+
+    header {
+        font-size: 13px;
+        left: 2;
+    }
+
+
+    .menu nav {
+        position: absolute;
+        font-size: 15px;
+        color: #ffffff;
+        float: right;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 20px;
+        right: 0;
+
+    }
+
+    .introducao .titulo {
+        left: 0;
+    }
+
+    .introducao img {
+        display: none;
+    }
+
+    .introducao #intro1 {
+        display: none;
+    }
+
+    .introducao {
+        background-image: url(https://source.unsplash.com/wI96vLftzkE);
+    }
+
+
+
+    .introducao #te {
+        font-size: 20px;
+        left: 0;
+        top: 10;
+        background-image: url(https://source.unsplash.com/wI96vLftzkE);
+        color: rgb(255, 255, 255);
+    }
+
+
+    img {
+        max-width: 100%;
+        border: 0;
+        padding: 0;
+        max-height: 100%;
+        width: 100%;
+        aspect-ratio: 5 / 7;
+        background: hsl(0 0% 80%);
+    }
+
+    .dropdown .dropbtn {
+        font-size: 15px;
+        color: white;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 2;
+
+    }
+
+    footer {
+        bottom: 0;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .espaco {
+        padding: 64px;
+    }
+
+    header {
+        font-size: 10px;
+        top: 50;
+        left: 0;
+    }
+
+    .menu nav {
+        position: absolute;
+        font-size: 10px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 2px;
+        left: 2;
+        padding: 10px 5px;
+        z-index: 2;
+
+    }
+
+    .introducao .titulo {
+        left: 0;
+    }
+
+    .introducao #te {
+        font-size: 15px;
+        left: 0;
+    }
+
+    .texto-container p {
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .texto-container h1 {
+        font-size: 120px;
+        align-items: center;
+    }
+
+    img {
+        max-width: 100%;
+        border: 0;
+        padding: 0;
+        max-height: 100%;
+        width: 100%;
+        aspect-ratio: 5 / 7;
+        background: hsl(0 0% 80%);
+    }
+
+    .dropdown .dropbtn {
+        font-size: 20px;
+        color: white;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 2;
+
+    }
+
+    .labs .aument {
+        right: 90%;
+        display: inline-block;
+        font-size: 15px;
+        justify-content: space-between;
+        margin: 50px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .aument {
+        border: 2px solid #000000;
+        border-radius: 1.5%;
+        background-color: #f5ffd8;
+        width: 200px;
+        height: 300px;
+    }
+
+    footer {
+        bottom: 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:395px) {
+
+    .menu nav {
+        position: absolute;
+        font-size: 5px;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 0;
+        left: 2;
+        padding: 2px 1px;
+
+    }
+
+
+
+    .texto-container p {
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .texto-container h1 {
+        font-size: 100px;
+        align-items: center;
+    }
+
+    .introducao .titulo {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 35;
+    }
+
+    .explore {
+        padding: 10px 35px;
+        transform: translate(-48%, 135%);
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 0px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    img {
+        max-width: 100%;
+        border: 0;
+        padding: 0;
+        max-height: 100%;
+        width: 100%;
+        aspect-ratio: 5 / 7;
+        background: hsl(0 0% 80%);
+    }
+
+    .dropdown .dropbtn {
+        font-size: 15px;
+        color: white;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 2;
+
+    }
+
+    .papelFundo .container #inicio {
+        font-size: 29px;
+    }
+
+    .papelFundo .container #inicio span {
+        font-size: 12px;
+    }
+
+    footer {
+        bottom: 0;
+        padding: 20px;
+    }
 }
 
 /*----------------------------------------------------------------------------------*/
