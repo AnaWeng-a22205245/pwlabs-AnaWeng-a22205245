@@ -649,6 +649,10 @@ p.intro {
 
     }
 
+    #intro{
+        left: 0;
+    }
+
     .labs .aument {
         right: 90%;
         display: inline-block;
